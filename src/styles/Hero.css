@@ -1,0 +1,22 @@
+.hero-section {
+  background: linear-gradient(to right, #222, #333);
+  color: white;
+  padding: 100px 20px;
+  text-align: left;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.hero-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #00bcd4;
+}
